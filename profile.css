@@ -1,0 +1,36 @@
+body{
+  background-color: rgb(191, 191, 204);
+  padding-left:10px ;
+  padding-right: 10px;
+}
+.margin{
+ 
+  margin-right:10px ;
+}
+
+.work{
+  padding-left:10px ;
+  
+  width: 101%;
+}
+
+@media only screen and (max-width:576px) {
+  .work{
+    width: 102.5%;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width:800px) {
+  .work{
+    width: 102%;
+  }
+}
+@media only screen and (min-width: 800px) and (max-width:992px) {
+  .work{
+    width: 101.5%;
+  }
+}
+@media only screen  and (min-width: 992px) and (max-width:1240px){
+  .work{
+    width: 101%;
+  }
+}
